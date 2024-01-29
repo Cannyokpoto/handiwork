@@ -3,7 +3,7 @@
 
 
 :root{
-    --energyRed: #FF7235;
+    --energyRed: #FF2121;
     --energyDarkRed: #540808;
     --energyBlack: #000000;
     --energyDarkBlue: #263640;
@@ -22,108 +22,49 @@
 }
 
 .hero{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.hero .hero-section2{
-    display: none;
-}
-
-.hero-section{
-    margin-top: 100px;
     height: 90vh;
     width: 100vw;
-    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    font-family: 'Poppins', sans-serif;
+    background: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-x: hidden;
 }
 
-.hero-section .left-hand-side{
-    width: 50%;
+.hero::after{
+    content: "";
+    background-color: var(--energyBlack);
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 150px;
-    gap: 20px;
+    width: 100vw;
+    position: absolute;
+    opacity: .7;
+    z-index: 4;
 }
 
-.hero-section .left-hand-side h2{
-    color: var(--energyGrey);
-    font-size: 26px;
-    font-weight: 600;
-}
-
-.hero-section .left-hand-side .left-sub{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    height: 45%;
-    gap: 0;
-}
-
-.hero-section .left-hand-side .left-sub .hand{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    gap: 20px;
-    height: 70px;
+.hero .hero-wrapper{
+    height: 75%;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    z-index: 6;
 }
 
-.hero-section .left-hand-side .left-sub .hand img{
-   width: 70px;
-   height: 70px;
-}
-
-.hero-section .left-hand-side p{
-    color: var(--energyBlack);
-    font-weight: 700;
+.hero .hero-wrapper h1{
     font-size: 50px;
+    text-align: center;
+    color: var(--energyWhite);
+    font-weight: 500;
 }
 
 
-
-.hero-section .left-hand-side .latest-btn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 45%;
-    font-size: 20px;
-    padding: 5px;
-    gap: 20px;
-    background-color: var(--energyRed);
-    color: var(--energyWhite);
-    text-decoration: none;
-    border-radius: 70px;
- }
-
- .hero-section .left-hand-side .latest-btn:hover{
-    background-color: var(--energyDarkRed);
- }
-
- .hero-section .right-hand-side {
-    width: 45%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
- }
-
- .hero-section .right-hand-side img{
-    width: 100%;
-    height: 70%;
- }
 
  @media (max-width: 500px){
 

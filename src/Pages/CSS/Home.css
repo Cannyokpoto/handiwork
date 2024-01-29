@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
-
 :root{
     --energyRed: #FF2121;
     --energyDarkRed: #540808;
@@ -13,18 +9,13 @@
     --boxShadow: 5px 5px 5px rgb(178, 180, 182);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.App{
+.home{
     width: 100%;
     height: 100%;
-    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden !important;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
