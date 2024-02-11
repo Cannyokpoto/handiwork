@@ -84,7 +84,7 @@ function Header(){
                 <nav className='desktopNavNew desktopNav'>
                     <ul className="myNav">
                         <li><NavLink to="/" onClick={handleClick}>Home</NavLink></li>
-                        <li><NavLink to="/about" 
+                        <li><NavLink to="/market-place" 
                         onClick={handleClick}
                         onMouseEnter={() => setDropDown(true)}
                         onMouseLeave={() => setDropDown(false)}

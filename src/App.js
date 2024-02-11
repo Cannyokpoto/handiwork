@@ -17,7 +17,7 @@ function App() {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/about" element={<MarketPlace />} />
+                <Route path="/market-place" element={<MarketPlace />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
             <Footer />
