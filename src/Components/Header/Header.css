@@ -7,25 +7,208 @@
     --energyLightGrey: #F5F8FA;
     --myGrey: #a3a2a2;
     --energyWhite: #FFFFFF;
+    --secondary: #212529;
     --boxShadow: 5px 5px 50px 5px rgb(245, 248, 250);
 }
 
-.header-bg{
+/*White Header*/
+
+.header{
     width: 100vw;
     height: 100px;
-    background-color: var(--energyWhite);
-    border-bottom: 1px solid var(--energyLightGrey);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 15;
+    background-color: var(--energyWhite);
 }
 
-.header-bg .desktopNavNew .myNav li a{
+
+ .header .logo{
+        width: 15%;
+        height: 65%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+ }
+        
+ .header .logo img{
+            width: 70%;
+            height: 50%;
+        }
+
+ .header .logo .nav-icons{
+            display: none;
+    }
+
+.header .logo .nav-icons i{
     color: var(--energyBlack);
+    font-size: 30px;
+    cursor: pointer;
 }
 
-.desktopNavNew{
+
+    .header .desktopNav{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .desktopNav .myNav{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .desktopNav .myNav li{
+        list-style: none;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .desktopNav .myNav li a{
+        height: 100%;
+        color: var(--energyBlack);
+        font-size: 17px;
+        font-weight: 500;
+        text-decoration: none;
+        padding: 5px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .desktopNav .myNav li a:hover{
+        color: var(--energyRed);
+    }
+                    
+
+    .desktopNav .myNav li a.active{
+        color: var(--energyRed);
+    }
+    
+
+    .desktopNav .engage{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.desktopNav .engage button{
+    background-color: var(--myGrey);
+    color: var(--energyWhite);
+    width: 45%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.desktopNav .engage .red{
+    background-color: var(--energyRed);
+    color: var(--energyWhite);
+    width: 45%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+        
+
+    .header .mobile-navbar{
+            display: none;
+        }
+
+    .header .search{
+        font-size: 30px;
+        position: relative;
+        right: 100px;
+        color: var(--energyBlack);
+        z-index: -3;
+        cursor: pointer;
+    }
+
+
+/*Colored Header*/
+
+
+.header-bg{
+    width: 100vw;
+    height: 100px;
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 15;
+}
+
+.header-bg .mobile-navbar{
+    display: none;
+}
+
+.header-bg .logo{
+    width: 15%;
+    height: 65%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+    
+.header-bg .logo img{
+        width: 70%;
+        height: 50%;
+    }
+
+.header-bg .logo .nav-icons{
+    display: none;
+}
+
+.header-bg .logo .nav-icons i{
+    color: var(--energyBlack);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.header-bg .desktopNavNew{
     width: 60%;
     height: 100%;
     display: flex;
@@ -35,7 +218,7 @@
     gap: 50px;
 }
 
-    .desktopNavNew .myNav{
+.header-bg  .desktopNavNew .myNav{
         width: 60%;
         height: 100%;
         display: flex;
@@ -95,10 +278,10 @@
 
     .header-bg .search-wt{
         font-size: 30px;
-        color: var(--energyBlack);
+        color: var(--energyWhite);
         position: relative;
         right: 100px;
-        z-index: -3;
+        z-index: 7;
         cursor: pointer;
     }
 
@@ -108,8 +291,6 @@
 body.active-modal, body.active-modal2, body.active-modal3{
     overflow-y: hidden;
 }
-
-
 
 
 .modal{
@@ -124,6 +305,7 @@ body.active-modal, body.active-modal2, body.active-modal3{
     align-items: center;
     justify-content: center;
     overflow-y: scroll;
+    padding-top: 40px;
 }
 
 .overlay {
@@ -135,6 +317,7 @@ body.active-modal, body.active-modal2, body.active-modal3{
     position: fixed;
     background-color: var(--energyBlack);
     opacity: .9;
+    z-index: 9;
 }
 
 

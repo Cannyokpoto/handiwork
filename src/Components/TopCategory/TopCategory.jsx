@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import styled from 'styled-components';
 import { CategoryData, Artisans, } from '../Assets/Data';
 import ServiceProvider from '../ServiceProvider/ServiceProvider';
 
-const CategoryStyle = styled.div`
+const TopCategoryStyle = styled.div`
     height: 100%;
     width: 80vw;
     display: flex;
@@ -84,7 +84,7 @@ const CategoryStyle = styled.div`
 
 
 
-function Category() {
+function TopCategory() {
 
     const [myCategory, setMyCategory] = useState(Artisans);
 
@@ -102,7 +102,7 @@ function Category() {
 
 
   return (
-    <CategoryStyle>
+    <TopCategoryStyle>
         <h1>Services by Category</h1>
 
         <div className='category-names'>
@@ -140,9 +140,9 @@ function Category() {
                 })
             }
         </div>
-    </CategoryStyle>
+    </TopCategoryStyle>
 
   )
 }
 
-export default Category
+export default TopCategory

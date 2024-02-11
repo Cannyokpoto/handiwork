@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import NoPage from "./Pages/NoPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlobalStyles from "./Components/GlobalStyles/GlobalStyles";
+import MarketPlace from "./Pages/MarketPlace";
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path="/" element={<Home/>} />
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<MarketPlace />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
             <Footer />

@@ -8,6 +8,8 @@ const SearchBarStyle = styled.div`
     height: 50px;
     width: 70vw;
     display: flex;
+    border-radius: 20px;
+    border: 1px solid var(--energyLightGrey);
 
     form{
         height: 100%;
