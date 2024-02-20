@@ -4,12 +4,13 @@ import { IoSearchOutline } from "react-icons/io5";
 import { IoCloseOutline } from "react-icons/io5";
 import { MdOutlineLocationOn } from "react-icons/md";
 
-const SearchBarStyle = styled.div`
+const LSearchBarStyle = styled.div`
     height: 50px;
-    width: 70vw;
+    width: 50vw;
     display: flex;
     border-radius: 20px;
     border: 1px solid var(--energyGrey);
+    margin-top: 100px;
 
     form{
         height: 100%;
@@ -59,11 +60,6 @@ const SearchBarStyle = styled.div`
                 background-color: transparent;
                 border: none;
                 padding-left: 10px;
-
-                &:focus{
-                    border-bottom: 1px solid var(--energyRed);
-                    outline: none;
-                }
             }
         }
 
@@ -116,32 +112,22 @@ const SearchBarStyle = styled.div`
 
 `;
 
-function SearchBar() {
+function LSearchBar() {
   return (
-    <SearchBarStyle>
+    <LSearchBarStyle>
         <form>
-            <label htmlFor="services" className="search-services">
-                <select name="services" id="services">
-                    <option value="">Select Service</option>
-                    <option value="Service 1">Service 1</option>
-                    <option value="Service 2">Service 2</option>
-                    <option value="Service 3">Service 3</option>
-                    <option value="Service 4">Service 4</option>
-                </select>
-            </label>
 
             <label htmlFor="location">
-                <input type="text" name="location" id="location" placeholder="Enter your location" />
+                <input type="text" name="location" id="location" placeholder="filter by location" />
                 <MdOutlineLocationOn className="icon location" />
             </label>
 
             <div className="search-close">
-                <IoCloseOutline className="icon close" />
                 <IoSearchOutline className="icon search" />
             </div>
         </form>
-    </SearchBarStyle>
+    </LSearchBarStyle>
   )
 }
 
-export default SearchBar;
+export default LSearchBar;

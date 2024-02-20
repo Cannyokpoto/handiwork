@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import './CategoryBox.css'
 import { GiClothes } from "react-icons/gi";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -15,6 +16,7 @@ import { GoLaw } from "react-icons/go";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
 
 function CategoryBox() {
+    // <Link ><img onClick={window.scrollTo(0,0)} src={props.image} alt='' /></Link>
     const [showMore, setShowMore] = useState(false);
   return (
     <div className='category-box'>
@@ -22,65 +24,65 @@ function CategoryBox() {
 
       <div className='category-layout'>
         <div className='category-row'>
-            <span>
+            <Link to="/market-place/fashion">
                 <GiClothes className='categoery-icon' />
                 <p>Fashion</p>
                 <button>Explore <FaArrowRightLong className='arrow' /></button>
-            </span>
-            <span>
+            </Link>
+            <Link to="/market-place/hospitality">
                 <TbHeartStar className='categoery-icon' />
                 <p>Hospitality</p>
                 <button>Explore <FaArrowRightLong className='arrow' /></button>
-            </span>
-            <span>
+            </Link>
+            <Link to="/market-place/technicians">
                 <MdEngineering className='categoery-icon' />
                 <p>Technicians</p>
                 <button>Explore <FaArrowRightLong className='arrow' /></button>
-            </span>
-            <span>
+            </Link>
+            <Link>
                 <FaCar className='categoery-icon' />
                 <p>Automobile</p>
                 <button>Explore <FaArrowRightLong className='arrow' /></button>
-            </span>
+            </Link>
         </div>
 
         {showMore ?
         <div className='category-row'>
-            <span>
+            <Link>
                 <FaMotorcycle className='categoery-icon' />
                 <p>Logistics</p>
                 <button>Explore <FaArrowRightLong className='arrow' /></button>
-            </span>
-            <span>
+            </Link>
+            <Link>
                 <GiPencilBrush className='categoery-icon' />
                 <p>Beauticians</p>
                 <button>Explore <FaArrowRightLong className='arrow' /></button>
-            </span>
-            <span>
+            </Link>
+            <Link>
                 <FaHome className='categoery-icon' />
                 <p>Domestic</p>
                 <button>Explore <FaArrowRightLong className='arrow' /></button>
-            </span>
-            <span>
+            </Link>
+            <Link>
                 <GiTeacher className='categoery-icon' />
                 <p>Tutors</p>
                 <button>Explore <FaArrowRightLong className='arrow' /></button>
-            </span>
+            </Link>
         </div> : "" }
 
         {showMore ?
         <div className='category-row'>
-            <span>
+            <Link>
                 <GoLaw className='categoery-icon' />
                 <p>Legal Services</p>
                 <button>Explore <FaArrowRightLong className='arrow' /></button>
-            </span>
+            </Link>
 
-            <span>
+            <Link>
                 <MdOutlineHealthAndSafety className='categoery-icon' />
                 <p>Health</p>
                 <button>Explore <FaArrowRightLong className='arrow' /></button>
-            </span>
+            </Link>
         </div> : "" }
 
         <div className="more-less" onClick={() => setShowMore(!showMore)}>

@@ -10,12 +10,17 @@
 }
 
 .slider-container{
+    margin-top: 100px;
     width: 70vw;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    gap: 30px;
+}
+
+.slider-container h4{
+    width: 100%;
 }
 
 .slick-slider{

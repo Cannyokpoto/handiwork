@@ -11,11 +11,17 @@ function FeaturedProviders() {
   
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 0,
+    slidesToScroll: 3,
     initialSlide: 0,
+
+    autoplay: true,
+    autoplaySpeed: 4000,
+    cssEase: "linear",
+
+
     responsive: [
       {
         breakpoint: 1024,
@@ -46,6 +52,7 @@ function FeaturedProviders() {
 
   return (
     <div className="slider-container">
+      <h4>Featured Service Providers</h4>
       <Slider {...settings} className="slider">
             {
                 CategoryData.map((featured) =>{

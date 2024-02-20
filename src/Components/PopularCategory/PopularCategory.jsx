@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { CategoryData, Artisans, } from '../Assets/Data';
 import ServiceProvider from '../ServiceProvider/ServiceProvider';
 
-const CategoryStyle = styled.div`
+const popularCategoryStyle = styled.div`
     height: 100%;
     width: 80vw;
     display: flex;
@@ -84,9 +84,9 @@ const CategoryStyle = styled.div`
 
 
 
-function Category() {
+function PopularCategory() {
 
-    const [myCategory, setMyCategory] = useState(Artisans);
+    const [popularCategory, setPopularCategory] = useState(Artisans);
 
 
     let categories = [ 'Artisans', 'Technicians', 'Beauticians' ];
@@ -96,13 +96,13 @@ function Category() {
             return currentCategory.category===selected;
         });
 
-        setMyCategory(result);
+        setPopularCategory(result);
 
     };
 
 
   return (
-    <CategoryStyle>
+    <popularCategoryStyle>
         <h1>Services by Category</h1>
 
         <div className='category-names'>
@@ -113,7 +113,7 @@ function Category() {
 
                     return(
                         <button 
-                        className={`btn ${myCategory?.includes(category) ? "active" : ""}` } 
+                        className={`btn ${popularCategory?.includes(category) ? "active" : ""}` } 
                         onClick={() => filterResult(category)}
                         key={`categories-${idx}`}
                         >{category}</button>
@@ -124,7 +124,7 @@ function Category() {
 
         <div className='categories'>
             {
-                myCategory.map((cat) =>{
+                popularCategory.map((cat) =>{
                     const{id, image, name, skill, no_off_jobs} = cat;
                     return(
                         
@@ -140,9 +140,9 @@ function Category() {
                 })
             }
         </div>
-    </CategoryStyle>
+    </popularCategoryStyle>
 
   )
 }
 
-export default Category
+export default PopularCategory

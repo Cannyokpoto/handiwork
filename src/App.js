@@ -7,6 +7,9 @@ import NoPage from "./Pages/NoPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlobalStyles from "./Components/GlobalStyles/GlobalStyles";
 import MarketPlace from "./Pages/MarketPlace";
+import PHOTOS from "./Components/images";
+import IndividualCategory from "./Components/IndividualCategory/IndividualCategory";
+import About from "./Pages/AboutPage";
 
 
 function App() {
@@ -18,6 +21,13 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/market-place" element={<MarketPlace />} />
+                <Route path="/market-place">
+                  <Route path='/market-place/fashion' element={<IndividualCategory category= "Artisans" banner ={PHOTOS.fashion}  categoryTag ="Fashion Designers"/>} />
+                  <Route path='/market-place/hospitality' element={<IndividualCategory category= "Technicians" banner ={PHOTOS.technicians} categoryTag ="Technicians" />} />
+                  <Route path='/market-place/technicians' element={<IndividualCategory category= "Beauticians" banner ={PHOTOS.beauticians} categoryTag ="Beauticians" />} />
+                </Route>
+                
+                <Route path="/about" element={<About />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
             <Footer />
