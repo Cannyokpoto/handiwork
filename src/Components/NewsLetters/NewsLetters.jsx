@@ -5,10 +5,9 @@ import './NewsLetters.css';
 function NewsLetters(){
     return(
         <div className='news-letters'>
-            <h1>Get  Exclusive Offers On Your Email</h1>
-            <p>Subscribe to our newsletters and stay updated</p>
-            <form method='post'>
-                <input type="email" placeholder='your email' />
+            <p>Get our latest update and offers  by subscribing to our <span>Newsletter</span></p>
+            <form>
+                <input type="email" placeholder='Enter email' />
                 <button type='submit'>Subscribe</button>
             </form>
         </div>

@@ -13,8 +13,11 @@ function OurFeatures() {
             </span>
 
             <p>
-            In a world driven by technology and digital innovation, traditional artisans often find it challenging to connect with potential customers and secure consistent work. However, CraftConnect, a groundbreaking platform, has emerged as a bridge between skilled artisans and those seeking their unique talents. CraftConnect is not just a job-matching platform; it's a community that celebrates and preserves traditional craftsmanship while providing artisans with a sustainable source of income.
+            In a world driven by technology and digital innovation, traditional artisans often find it challenging to connect with potential customers and secure consistent work. However, Handiwork, a groundbreaking platform, has emerged as a bridge between skilled artisans and those seeking their unique talents. 
             </p>
+            <p>Handiwork is not just a job-matching platform; it's a community 
+            that celebrates and preserves traditional craftsmanship while providing artisans 
+            with a sustainable source of income.</p>
         </div>
 
         <div className='center'>

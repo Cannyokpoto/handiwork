@@ -10,50 +10,57 @@
     --energyLightGrey: #F5F8FA;
     --energyWhite: #FFFFFF;
     --boxShadow: 5px 5px 5px rgb(178, 180, 182);
+    --energyDarkGrey: #444444;
+    --anotherGrey: #848484;
+    --secondary: #212529;
+    --myGrey: #a3a2a2;
+    --energyWhite: #FFFFFF;
+    --boxShadow: 5px 5px 5px rgba(199, 192, 192, 0.3);
 }
 
 .news-letters{
-    width: 85vw;
-    height: 50vh;
+    width: 100vw;
+    height: 63vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
-    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--secondary);
+    margin-top: -100px;
     gap: 10px;
-    font-family: 'Poppins', sans-serif;
-    padding-left: 20px;
+    position: relative;
+    top: 250px;
+    padding-top: 30px;
 }
 
-.news-letters h1{
-    color: var(--energyDarkBlue);
-    font-size: 20px;
-    font-weight: 600;
-}
 
 .news-letters p{
-    color: var(--energyDarkBlue);
-    font-size: 15px;
+    color: var(--energyWhite);
+    font-size: 20px;
+    width: 35%;
+    text-align: center;
+}
+
+.news-letters p span{
+    color: var(--energyRed);
 }
 
 .news-letters form{
-    width: 100%;
-    height: 100px;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: center;
+    gap: 20px;
 }
 
 .news-letters form input{
-    height: 50px;
-    width: 70%;
-    border-radius: 10px;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
     outline: none;
     border: 1px solid var(--energyGrey);
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 .news-letters form input::placeholder{
@@ -61,18 +68,18 @@
 }
 
 .news-letters form button{
-    background-color: var(--energyDarkBlue);
+    background-color: var(--energyRed);
     color: var(--energyWhite);
     font-size: 17px;
     height: 50px;
-    width: 30%;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
 }
 
 .news-letters form button:hover{
-    background-color: var(--energyGrey);
+    background-color: var(--energyDarkRed);
 }
 
 
