@@ -55,16 +55,17 @@ function FeaturedProviders() {
       <h4>Featured Service Providers</h4>
       <Slider {...settings} className="slider">
             {
-                CategoryData.map((featured) =>{
-                    const{id, image, name, skill, no_off_jobs} = featured;
+                CategoryData.map((featured, i) =>{
+                    // const{id, image, name, skill, no_off_jobs} = featured;
                     return(
                         
-                            <ServiceProvider 
-                                key={id}
-                                image={image}
-                                name={name}
-                                skill={skill}
-                                no_off_jobs={no_off_jobs}
+                            <ServiceProvider
+                                key={i}
+                                id= {featured.id}
+                                image={featured.image}
+                                name={featured.name}
+                                skill={featured.skill}
+                                no_off_jobs={featured.no_off_jobs}
                             />
 
                     )
