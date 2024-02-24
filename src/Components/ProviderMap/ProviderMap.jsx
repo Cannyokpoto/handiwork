@@ -23,7 +23,7 @@ const ProviderMap = (props) => {
 
       
         <div className="cta">
-            <div className="number-wrapper"><span>{provider.phoneNumber.slice(0, 5)}</span> ****</div>
+            <div className="number-wrapper"><span>{provider.phoneNumber.slice(0, 6)}</span> ****</div>
 
             <a href={`tel:${provider.phoneNumber}`} className="call-btn"><FaPhone className='phone' /></a>
         </div>
