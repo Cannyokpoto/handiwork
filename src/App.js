@@ -10,6 +10,7 @@ import MarketPlace from "./Pages/MarketPlace";
 import PHOTOS from "./Components/images";
 import IndividualCategory from "./Components/IndividualCategory/IndividualCategory";
 import About from "./Pages/AboutPage";
+import Provider from "./Pages/Provider";
 
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
                   <Route path='/market-place/fashion' element={<IndividualCategory category= "Artisans" banner ={PHOTOS.fashion}  categoryTag ="Fashion Designers"/>} />
                   <Route path='/market-place/hospitality' element={<IndividualCategory category= "Technicians" banner ={PHOTOS.technicians} categoryTag ="Technicians" />} />
                   <Route path='/market-place/technicians' element={<IndividualCategory category= "Beauticians" banner ={PHOTOS.beauticians} categoryTag ="Beauticians" />} />
+                </Route>
+
+                <Route path="/provider" element={<Provider />}>
+                    <Route path=':providerId' element={<Provider />} />
                 </Route>
                 
                 <Route path="/about" element={<About />} />

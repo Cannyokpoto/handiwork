@@ -20,17 +20,18 @@ function IndividualCategory(props) {
 
     //Logic to determine how many providers to display out of the 50 in the array
     const displayProviders = providers.slice(pagesVisited, pagesVisited + providersPerPage)
-        .map((provider) =>{
+        .map((provider, i) =>{
 
             //distructuring to have direct access to the "provider" object properties
-            const{id, image, name, skill, no_off_jobs} = provider;
+            // const{id, image, name, skill, no_off_jobs} = provider;
             return(
                 <ServiceProvider 
-                    key={id}
-                    image={image}
-                    name={name}
-                    skill={skill}
-                    no_off_jobs={no_off_jobs}
+                    key={i}
+                    id = {provider.id}
+                    image={provider.image}
+                    name={provider.name}
+                    skill={provider.skill}
+                    no_off_jobs={provider.no_off_jobs}
                 />
             )
         })

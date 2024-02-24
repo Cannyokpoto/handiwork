@@ -2,10 +2,12 @@ import React from 'react';
 import { FaPhone } from "react-icons/fa";
 import './ProviderMap.css'
 
-const ProviderMap = () => {
+const ProviderMap = (props) => {
 
-      const lat = 6.65494;
-      const  lng = 3.32328;
+      // const latitude = 6.65494;
+      // const  longitude = 3.32328;
+
+      const {provider} = props;
   
 
   return (
@@ -15,16 +17,18 @@ const ProviderMap = () => {
           title="map"
           className="my-map"
           frameBorder="0"
-          src={`https://maps.google.com/maps?q=${lat},${lng}&h1=es;&output=embed`}
+          src={`https://maps.google.com/maps?q=${provider.latitude},${provider.longitude}&h1=es;&output=embed`}
           allowFullScreen
           ></iframe>
 
       
         <div className="cta">
-            <div className="number-wrapper"><span>070324</span> ****</div>
+            <div className="number-wrapper"><span>{provider.phoneNumber.slice(0, 5)}</span> ****</div>
 
-            <a href="tel:+2348138957283" className="call-btn"><FaPhone className='phone' /></a>
+            <a href={`tel:${provider.phoneNumber}`} className="call-btn"><FaPhone className='phone' /></a>
         </div>
+
+        {/* "tel:+2348138957283" */}
     </div>
   );
 };

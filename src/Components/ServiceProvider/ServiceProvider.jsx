@@ -2,6 +2,7 @@ import React from 'react';
 import './ServiceProvider.css';
 import { MdVerified } from "react-icons/md";
 import { IoIosStar } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 function ServiceProvider(props) {
   return (
@@ -16,6 +17,7 @@ function ServiceProvider(props) {
               <h6>{props.skill}</h6>
               <h3>{props.no_off_jobs}+</h3>
               <p>Jobs Executed</p>
+              <Link to={`/provider/${props.id}`} onClick={window.scrollTo(0,0)}>press me</Link>
           
               <div className="stars">
                   <IoIosStar />

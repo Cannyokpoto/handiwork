@@ -206,6 +206,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat1,
     skill: "Bricklayer",
     no_off_jobs: 120,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
   {
@@ -215,6 +221,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat2,
     skill: "Carpenter",
     no_off_jobs: 60,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
   {
@@ -224,6 +236,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat3,
     skill: "Plumber",
     no_off_jobs: 40,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
   {
@@ -233,6 +251,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat4,
     skill: "Phone Repairer",
     no_off_jobs: 90,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
    {
@@ -242,6 +266,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat5,
     skill: "Mechanic",
     no_off_jobs: 74,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
    {
@@ -251,6 +281,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat6,
     skill: "Electronics Repairer",
     no_off_jobs: 50,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
    {
@@ -260,6 +296,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat7,
     skill: "Makeup Artist",
     no_off_jobs: 160,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
   {
@@ -269,6 +311,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat8,
     skill: "Hair Stylist",
     no_off_jobs: 90,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
    {
@@ -278,6 +326,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat9,
     skill: "Nail Technician",
     no_off_jobs: 150,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
   {
@@ -287,6 +341,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat6,
     skill: "Electronics Repairer",
     no_off_jobs: 50,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
   {
@@ -296,6 +356,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat6,
     skill: "Electronics Repairer",
     no_off_jobs: 50,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
   {
@@ -305,6 +371,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat6,
     skill: "Electronics Repairer",
     no_off_jobs: 50,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
   {
@@ -314,6 +386,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat2,
     skill: "Carpenter",
     no_off_jobs: 60,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
   {
@@ -323,6 +401,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat2,
     skill: "Carpenter",
     no_off_jobs: 60,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
   {
@@ -332,6 +416,12 @@ const AllServiceProvidersData = [
     image: PHOTOS.cat2,
     skill: "Carpenter",
     no_off_jobs: 60,
+    categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
   },
 
     {
@@ -341,6 +431,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat1,
       skill: "Bricklayer",
       no_off_jobs: 120,
+      categoryImage: PHOTOS.technicians,
+      about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+      address: "24 Laycon road, Abulegba. Lagos state.",
+      latitude: 6.65494,
+      longitude: 3.32328,
+      phoneNumber: "08138957283",
     },
   
     {
@@ -350,6 +446,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat2,
       skill: "Carpenter",
       no_off_jobs: 60,
+      categoryImage: PHOTOS.technicians,
+      about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+      address: "24 Laycon road, Abulegba. Lagos state.",
+      latitude: 6.65494,
+      longitude: 3.32328,
+      phoneNumber: "08138957283",
     },
   
     {
@@ -359,6 +461,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat3,
       skill: "Plumber",
       no_off_jobs: 40,
+      categoryImage: PHOTOS.technicians,
+      about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+      address: "24 Laycon road, Abulegba. Lagos state.",
+      latitude: 6.65494,
+      longitude: 3.32328,
+      phoneNumber: "08138957283",
     },
   
     {
@@ -368,6 +476,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat4,
       skill: "Phone Repairer",
       no_off_jobs: 90,
+      categoryImage: PHOTOS.technicians,
+      about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+      address: "24 Laycon road, Abulegba. Lagos state.",
+      latitude: 6.65494,
+      longitude: 3.32328,
+      phoneNumber: "08138957283",
     },
   
      {
@@ -377,6 +491,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat5,
       skill: "Mechanic",
       no_off_jobs: 74,
+      categoryImage: PHOTOS.technicians,
+      about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+      address: "24 Laycon road, Abulegba. Lagos state.",
+      latitude: 6.65494,
+      longitude: 3.32328,
+      phoneNumber: "08138957283",
     },
   
      {
@@ -386,6 +506,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat6,
       skill: "Electronics Repairer",
       no_off_jobs: 50,
+      categoryImage: PHOTOS.technicians,
+      about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+      address: "24 Laycon road, Abulegba. Lagos state.",
+      latitude: 6.65494,
+      longitude: 3.32328,
+      phoneNumber: "08138957283",
     },
   
      {
@@ -395,6 +521,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat7,
       skill: "Makeup Artist",
       no_off_jobs: 160,
+      categoryImage: PHOTOS.technicians,
+      about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+      address: "24 Laycon road, Abulegba. Lagos state.",
+      latitude: 6.65494,
+      longitude: 3.32328,
+      phoneNumber: "08138957283",
     },
   
     {
@@ -404,6 +536,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat8,
       skill: "Hair Stylist",
       no_off_jobs: 90,
+      categoryImage: PHOTOS.technicians,
+      about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+      address: "24 Laycon road, Abulegba. Lagos state.",
+      latitude: 6.65494,
+      longitude: 3.32328,
+      phoneNumber: "08138957283",
     },
   
      {
@@ -413,6 +551,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat9,
       skill: "Nail Technician",
       no_off_jobs: 150,
+      categoryImage: PHOTOS.technicians,
+      about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+      address: "24 Laycon road, Abulegba. Lagos state.",
+      latitude: 6.65494,
+      longitude: 3.32328,
+      phoneNumber: "08138957283",
     },
   
     {
@@ -422,6 +566,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat6,
       skill: "Electronics Repairer",
       no_off_jobs: 50,
+      categoryImage: PHOTOS.technicians,
+      about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+      address: "24 Laycon road, Abulegba. Lagos state.",
+      latitude: 6.65494,
+      longitude: 3.32328,
+      phoneNumber: "08138957283",
     },
   
     {
@@ -431,6 +581,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat6,
       skill: "Electronics Repairer",
       no_off_jobs: 50,
+      categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
     },
   
     {
@@ -440,6 +596,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat6,
       skill: "Electronics Repairer",
       no_off_jobs: 50,
+      categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
     },
   
     {
@@ -449,6 +611,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat2,
       skill: "Carpenter",
       no_off_jobs: 60,
+      categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
     },
   
     {
@@ -458,6 +626,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat2,
       skill: "Carpenter",
       no_off_jobs: 60,
+      categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
     },
   
     {
@@ -467,6 +641,12 @@ const AllServiceProvidersData = [
       image: PHOTOS.cat2,
       skill: "Carpenter",
       no_off_jobs: 60,
+      categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
     },
   
       {
@@ -476,6 +656,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat1,
         skill: "Bricklayer",
         no_off_jobs: 120,
+        categoryImage: PHOTOS.technicians,
+        about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+        address: "24 Laycon road, Abulegba. Lagos state.",
+        latitude: 6.65494,
+        longitude: 3.32328,
+        phoneNumber: "08138957283",
       },
     
       {
@@ -485,6 +671,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat2,
         skill: "Carpenter",
         no_off_jobs: 60,
+        categoryImage: PHOTOS.technicians,
+        about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+        address: "24 Laycon road, Abulegba. Lagos state.",
+        latitude: 6.65494,
+        longitude: 3.32328,
+        phoneNumber: "08138957283",
       },
     
       {
@@ -494,6 +686,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat3,
         skill: "Plumber",
         no_off_jobs: 40,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
       {
@@ -503,6 +701,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat4,
         skill: "Phone Repairer",
         no_off_jobs: 90,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
        {
@@ -512,6 +716,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat5,
         skill: "Mechanic",
         no_off_jobs: 74,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
        {
@@ -521,6 +731,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat6,
         skill: "Electronics Repairer",
         no_off_jobs: 50,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
        {
@@ -530,6 +746,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat7,
         skill: "Makeup Artist",
         no_off_jobs: 160,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
       {
@@ -539,6 +761,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat8,
         skill: "Hair Stylist",
         no_off_jobs: 90,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
        {
@@ -548,6 +776,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat9,
         skill: "Nail Technician",
         no_off_jobs: 150,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
       {
@@ -557,6 +791,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat6,
         skill: "Electronics Repairer",
         no_off_jobs: 50,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
       {
@@ -566,6 +806,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat6,
         skill: "Electronics Repairer",
         no_off_jobs: 50,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
       {
@@ -575,6 +821,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat6,
         skill: "Electronics Repairer",
         no_off_jobs: 50,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
       {
@@ -584,6 +836,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat2,
         skill: "Carpenter",
         no_off_jobs: 60,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
       {
@@ -593,6 +851,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat2,
         skill: "Carpenter",
         no_off_jobs: 60,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
       {
@@ -602,6 +866,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat2,
         skill: "Carpenter",
         no_off_jobs: 60,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
 
       {
@@ -611,6 +881,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat7,
         skill: "Makeup Artist",
         no_off_jobs: 160,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
       {
@@ -620,6 +896,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat8,
         skill: "Hair Stylist",
         no_off_jobs: 90,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
     
        {
@@ -629,6 +911,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat9,
         skill: "Nail Technician",
         no_off_jobs: 150,
+        categoryImage: PHOTOS.technicians,
+        about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+        address: "24 Laycon road, Abulegba. Lagos state.",
+        latitude: 6.65494,
+        longitude: 3.32328,
+        phoneNumber: "08138957283",
       },
     
       {
@@ -638,6 +926,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat6,
         skill: "Electronics Repairer",
         no_off_jobs: 50,
+        categoryImage: PHOTOS.technicians,
+        about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+        address: "24 Laycon road, Abulegba. Lagos state.",
+        latitude: 6.65494,
+        longitude: 3.32328,
+        phoneNumber: "08138957283",
       },
     
       {
@@ -647,6 +941,12 @@ const AllServiceProvidersData = [
         image: PHOTOS.cat6,
         skill: "Electronics Repairer",
         no_off_jobs: 50,
+        categoryImage: PHOTOS.technicians,
+    about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni consectetur sed omnis nihil dolor!",
+    address: "24 Laycon road, Abulegba. Lagos state.",
+    latitude: 6.65494,
+    longitude: 3.32328,
+    phoneNumber: "08138957283",
       },
 
 ]
