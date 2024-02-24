@@ -28,9 +28,12 @@ function App() {
                   <Route path='/market-place/technicians' element={<IndividualCategory category= "Beauticians" banner ={PHOTOS.beauticians} categoryTag ="Beauticians" />} />
                 </Route>
 
-                <Route path="/provider" element={<Provider />}>
-                    <Route path=':providerId' element={<Provider />} />
+                <Route path="/market-place">
+                  <Route path="/market-place/provider" element={<Provider />}>
+                      <Route path=':providerId' element={<Provider />} />
+                  </Route>
                 </Route>
+                
                 
                 <Route path="/about" element={<About />} />
                 <Route path="*" element={<NoPage />} />
