@@ -124,16 +124,17 @@ function PopularCategory() {
 
         <div className='categories'>
             {
-                popularCategory.map((cat) =>{
-                    const{id, image, name, skill, no_off_jobs} = cat;
+                popularCategory.map((cat, i) =>{
+                    
                     return(
                         
                             <ServiceProvider 
-                                key={id}
-                                image={image}
-                                name={name}
-                                skill={skill}
-                                no_off_jobs={no_off_jobs}
+                                key={i}
+                                id = {cat.id}
+                                image={cat.image}
+                                name={cat.name}
+                                skill={cat.skill}
+                                no_off_jobs={cat.no_off_jobs}
                             />
 
                     )
